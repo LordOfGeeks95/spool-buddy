@@ -1,5 +1,5 @@
 """
-build_exe.py — Builds "Spool Buddy.exe" (a single file, no console window).
+build_exe.py — Builds "SpoolBuddy.exe" (a single file, no console window).
 
 Run (from the project folder):
     build.bat
@@ -7,7 +7,7 @@ or
     .venv\\Scripts\\python.exe tools\\build_exe.py
 
 Result:
-    release\\Spool Buddy.exe   <- ONLY the program, NO data.
+    release\\SpoolBuddy.exe   <- ONLY the program, NO data.
 
 What does NOT go into the exe:
     - the data\\ folder (your database) — never
@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-APP_NAME = "Spool Buddy"
+APP_NAME = "SpoolBuddy"   # exe file name (no spaces). The window title stays "Spool Buddy" (config.APP_TITLE)
 RELEASE_DIR = ROOT / "release"
 BUILD_DIR = ROOT / "build"
 

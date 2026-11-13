@@ -56,7 +56,7 @@ is left on each spool, what your prints cost, and when it's time to open a new o
 ## 🚀 Download & run (no Python needed)
 
 1. Go to the [**latest release**](https://github.com/LordOfGeeks95/spool-buddy/releases/latest)
-   and download **`Spool Buddy.exe`**.
+   and download **`SpoolBuddy.exe`**.
 2. Put it in a folder of its own (e.g. `Documents\Spool Buddy\`).
 3. Double-click it. That's it! 🎉
 
@@ -88,7 +88,7 @@ All your data lives in a **`data`** folder created **next to the app** the first
 
 ```
 Spool Buddy\
-├── Spool Buddy.exe
+├── SpoolBuddy.exe
 └── data\
     ├── filament.db      ← everything (a single SQLite file)
     ├── backups\         ← automatic backups (one per start, the last 20 are kept)
@@ -99,7 +99,7 @@ Spool Buddy\
 - **Move to another PC / a new version:** *Settings → Export everything* creates one `.json` file.
   On the other side: *Settings → Import*. A safety backup is always made before importing.
 - **Start fresh:** delete (or rename) the `data` folder.
-- **Updating the app:** replace only `Spool Buddy.exe` and keep the `data` folder.
+- **Updating the app:** replace only `SpoolBuddy.exe` and keep the `data` folder.
   The database is upgraded automatically.
 
 ## 🛠️ Run from source
@@ -132,7 +132,7 @@ python -m venv .venv
 build.bat
 ```
 
-This creates `release\Spool Buddy.exe` (a single file, no data inside) using PyInstaller.
+This creates `release\SpoolBuddy.exe` (a single file, no data inside) using PyInstaller.
 
 ## 🧱 Built with
 
