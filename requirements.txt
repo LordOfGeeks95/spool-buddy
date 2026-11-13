@@ -1,0 +1,4 @@
+# Tested versions — upper bounds keep a future major release from breaking the app
+nicegui>=3.17,<4
+pywebview>=6.2,<7
+pillow>=12.0   # only for tools/make_icon.py (creates icon.ico)

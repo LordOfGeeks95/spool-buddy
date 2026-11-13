@@ -1,0 +1,28 @@
+# --- Your data (never commit) ---
+data/
+*.db
+# Spool Buddy export files
+*.json
+
+# --- Build output ---
+build/
+dist/
+release/
+*.spec
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- Local notes / editor ---
+CLAUDE.md
+.claude/
+.vscode/
+.idea/
+
+# --- OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
